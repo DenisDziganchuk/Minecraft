@@ -1,0 +1,36 @@
+[02:50:53] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[02:50:55] [ServerMain/INFO]: Loaded 1370 recipes
+[02:50:55] [ServerMain/INFO]: Loaded 1481 advancements
+[02:50:55] [Server thread/INFO]: Starting minecraft server version 24w45a
+[02:50:55] [Server thread/INFO]: Loading properties
+[02:50:55] [Server thread/INFO]: Default game type: SURVIVAL
+[02:50:55] [Server thread/INFO]: Generating keypair
+[02:50:55] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:25565
+[02:50:55] [Server thread/INFO]: Using default channel type
+[02:50:55] [Server thread/INFO]: Preparing level "world"
+[02:50:56] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[02:50:57] [User Authenticator #1/INFO]: UUID of player Cherpixel is dffef075-ec69-4eea-a658-3761b6fbd16f
+[02:50:58] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[02:50:58] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[02:50:58] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[02:50:58] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[02:50:58] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[02:50:58] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[02:50:58] [Server thread/INFO]: Time elapsed: 2781 ms
+[02:50:58] [Server thread/INFO]: Done (3.105s)! For help, type "help"
+[02:50:59] [Server thread/INFO]: Cherpixel[/127.244.97.182:56239] logged in with entity id 7 at (-605.6116434942056, 64.25, -465.47378179833083)
+[02:50:59] [Server thread/INFO]: Cherpixel joined the game
+[02:52:32] [Server thread/INFO]: Cherpixel lost connection: Disconnected
+[02:52:32] [Server thread/INFO]: Cherpixel left the game
+[02:53:32] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[02:53:47] [Server thread/INFO]: No entity was found
+[02:54:05] [User Authenticator #2/INFO]: UUID of player Cherpixel is dffef075-ec69-4eea-a658-3761b6fbd16f
+[02:54:05] [Server thread/INFO]: Cherpixel[/127.244.97.182:34411] logged in with entity id 644 at (-528.0944466710343, 69.0, -586.8794025198744)
+[02:54:05] [Server thread/INFO]: Cherpixel joined the game
+[02:54:07] [Server thread/INFO]: Killed 18 entities
+[03:40:35] [Server thread/INFO]: Cherpixel lost connection: Disconnected
+[03:40:35] [Server thread/INFO]: Cherpixel left the game
+[03:41:35] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[03:55:04] [User Authenticator #3/INFO]: UUID of player Cherpixel is dffef075-ec69-4eea-a658-3761b6fbd16f
+[03:55:04] [Server thread/INFO]: Cherpixel[/127.244.97.182:54943] logged in with entity id 12878 at (-1053.6061317380027, 66.875, -396.96049385034155)
+[03:55:05] [Server thread/INFO]: Cherpixel joined the game

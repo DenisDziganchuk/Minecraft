@@ -1,0 +1,132 @@
+---- Minecraft Chunk IO Error Report ----
+// loss.mca
+
+Time: 2024-11-09 00:22:24
+Description: Chunk load failure
+
+java.util.zip.ZipException: invalid distance too far back
+	at java.base/java.util.zip.InflaterInputStream.read(InflaterInputStream.java:181)
+	at ayj.b(SourceFile:94)
+	at ayj.read(SourceFile:47)
+	at java.base/java.io.DataInputStream.readFully(DataInputStream.java:208)
+	at java.base/java.io.DataInputStream.readLong(DataInputStream.java:407)
+	at tx$1.d(SourceFile:38)
+	at tx$1.a(SourceFile:24)
+	at tx$1.c(SourceFile:21)
+	at tq.a(SourceFile:524)
+	at tq$1.d(SourceFile:76)
+	at tq$1.a(SourceFile:63)
+	at tq$1.c(SourceFile:58)
+	at tq.a(SourceFile:524)
+	at tq$1.d(SourceFile:76)
+	at tq$1.a(SourceFile:63)
+	at tq$1.c(SourceFile:58)
+	at tw$1.d(SourceFile:48)
+	at tw$1.a(SourceFile:31)
+	at tw$1.c(SourceFile:26)
+	at tq.a(SourceFile:524)
+	at tq$1.d(SourceFile:76)
+	at tq$1.a(SourceFile:63)
+	at tq$1.c(SourceFile:58)
+	at ud.a(SourceFile:191)
+	at ud.c(SourceFile:186)
+	at ud.a(SourceFile:111)
+	at ud.a(SourceFile:107)
+	at eaj.a(SourceFile:60)
+	at eae.b(SourceFile:196)
+	at eae.a(SourceFile:247)
+	at brb.a(SourceFile:22)
+	at brd$c.run(SourceFile:52)
+	at af.a(SourceFile:292)
+	at bqx.f(SourceFile:50)
+	at bqx.run(SourceFile:62)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: IO-Worker-3
+Stacktrace:
+	at java.base/java.util.zip.InflaterInputStream.read(InflaterInputStream.java:181)
+	at ayj.b(SourceFile:94)
+	at ayj.read(SourceFile:47)
+	at java.base/java.io.DataInputStream.readFully(DataInputStream.java:208)
+	at java.base/java.io.DataInputStream.readLong(DataInputStream.java:407)
+	at tx$1.d(SourceFile:38)
+	at tx$1.a(SourceFile:24)
+	at tx$1.c(SourceFile:21)
+	at tq.a(SourceFile:524)
+	at tq$1.d(SourceFile:76)
+	at tq$1.a(SourceFile:63)
+	at tq$1.c(SourceFile:58)
+	at tq.a(SourceFile:524)
+	at tq$1.d(SourceFile:76)
+	at tq$1.a(SourceFile:63)
+	at tq$1.c(SourceFile:58)
+	at tw$1.d(SourceFile:48)
+	at tw$1.a(SourceFile:31)
+	at tw$1.c(SourceFile:26)
+	at tq.a(SourceFile:524)
+	at tq$1.d(SourceFile:76)
+	at tq$1.a(SourceFile:63)
+	at tq$1.c(SourceFile:58)
+	at ud.a(SourceFile:191)
+	at ud.c(SourceFile:186)
+	at ud.a(SourceFile:111)
+	at ud.a(SourceFile:107)
+	at eaj.a(SourceFile:60)
+	at eae.b(SourceFile:196)
+	at eae.a(SourceFile:247)
+	at brb.a(SourceFile:22)
+	at brd$c.run(SourceFile:52)
+	at af.a(SourceFile:292)
+	at bqx.f(SourceFile:50)
+
+-- Chunk Info --
+Details:
+	Level: world
+	Dimension: minecraft:overworld
+	Storage: chunk
+	Position: [-45, -22]
+Stacktrace:
+	at net.minecraft.server.MinecraftServer.a(SourceFile:2055)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+-- System Details --
+Details:
+	Minecraft Version: 24w45a
+	Minecraft Version ID: 24w45a
+	Operating System: Linux (amd64) version 6.5.0-1025-azure
+	Java Version: 21.0.4, Microsoft
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Microsoft
+	Memory: 14222929320 bytes (13564 MiB) / 15032385536 bytes (14336 MiB) up to 15032385536 bytes (14336 MiB)
+	CPUs: 4
+	Processor Vendor: AuthenticAMD
+	Processor Name: AMD EPYC 7763 64-Core Processor
+	Identifier: AuthenticAMD Family 25 Model 1 Stepping 1
+	Microarchitecture: Zen 3
+	Frequency (GHz): -0.00
+	Number of physical packages: 1
+	Number of physical CPUs: 2
+	Number of logical CPUs: 4
+	Graphics card #0 name: unknown
+	Graphics card #0 vendor: unknown
+	Graphics card #0 VRAM (MiB): 0.00
+	Graphics card #0 deviceId: unknown
+	Graphics card #0 versionInfo: unknown
+	Virtual memory max (MiB): 7990.52
+	Virtual memory used (MiB): 4367.26
+	Swap memory total (MiB): 0.00
+	Swap memory used (MiB): 0.00
+	Space in storage for jna.tmpdir (MiB): <path not set>
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
+	Space in storage for io.netty.native.workdir (MiB): <path not set>
+	Space in storage for java.io.tmpdir (MiB): available: 95418.34, total: 120377.56
+	Space in storage for workdir (MiB): available: 19206.51, total: 32077.81
+	JVM Flags: 2 total; -Xmx14G -Xms14G
